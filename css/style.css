@@ -1,0 +1,209 @@
+
+/*
+             Master stylesheet
+============================================
+    Template Name : Tinyone
+    Author: Rahman Kader
+	Author Url : https://Rahmankader.com
+	Descriptions : PSD TO HTML Practise
+	Version: 1.0.0
+	Tag: blog
+
+*/
+
+
+/*
+			Table Of Contents
+============================================			
+	1. Typrography
+	2. Header
+	3
+	4
+	5
+	
+	font-family: 'PT Sans', sans-serif;
+
+
+*/
+
+/*==========================================
+			Typrography
+============================================*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	color: #898989;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 30px;
+	color: #010101;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 0;
+}
+h2{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 25px;
+}
+h3{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #313841;
+}
+p{
+	margin: 0;
+}
+
+/*==========================================
+			    Header
+============================================*/
+header{
+	background-color: #fcdb00;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.menu{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	padding-right: 0;
+	align-items: center;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid red;*/
+}
+.navbar{
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+.navbar ul{
+	text-align: right;
+}
+.navbar ul li{
+	display: inline-block;
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+	text-transform: capitalize;
+	padding: 0 35px;
+}
+.navbar ul li a:hover{
+	color:#fff;
+	transition: .3s all ease-in-out; 
+}
+.navbar ul li:last-child a{
+	padding-right: 0;
+}
+/*==========================================
+			    Banner
+============================================*/
+.banner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 70px;
+}
+.content{
+	width: 35%;
+	/*border: 1px solid;*/
+}
+.banner-img{
+	width: 35%;
+	/*border: 1px solid;*/
+	text-align: right;
+	padding-right: 50px;
+}
+.subtitle{
+	padding: 25px 0;
+}
+.banner-icon{
+	padding: 35px 0;
+}
+.banner-icon ul{
+	padding: 0;
+	margin: 0;
+}
+.banner-icon ul li{
+	display: inline-block;
+	padding-right: 30px;
+	font-size: 42px;
+	color: #010101;
+}
+/*Services area*/
+section{
+	width: 70%;
+	margin: 0 auto; 
+}
+.segment{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	width: 80%;
+	margin: 0 auto;
+}
+.feature{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.section-slot{
+	width: 32%;
+}
+.wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.icon{
+	width: 30%;
+}
+.icon i{
+	font-size: 50px;
+	color: #010101;
+}
+.feature-block{
+	width: 70%;
+}
+.title-1 h2{
+	font-size: 22px;
+	color: #010101;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
